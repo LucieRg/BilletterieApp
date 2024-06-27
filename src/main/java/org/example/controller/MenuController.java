@@ -13,20 +13,26 @@ public class MenuController {
 
     public void displayMenu() {
         while (true) {
-            System.out.println("Menu:");
+            System.out.println("==== Event menu ====");
             System.out.println("1. Create Event");
             System.out.println("2. List Events");
             System.out.println("3. Update Event");
             System.out.println("4. Delete Event");
+            System.out.println(" ");
+            System.out.println("==== Client menu ====");
             System.out.println("5. Create Client");
             System.out.println("6. List Clients");
             System.out.println("7. Update Client");
             System.out.println("8. Delete Client");
+            System.out.println(" ");
+            System.out.println("==== Ticket menu ====");
             System.out.println("9. Create Ticket");
             System.out.println("10. List Tickets");
             System.out.println("11. Update Ticket");
             System.out.println("12. Delete Ticket");
+            System.out.println(" ");
             System.out.println("0. Exit");
+            System.out.println(" ");
             System.out.print("Select an option: ");
             int choice = Integer.parseInt(scanner.nextLine());
 
